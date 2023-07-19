@@ -1,0 +1,26 @@
+{
+  "name": "SemTab23 MNB",
+  "version": "0.1.6",
+  "description": "Annotation tools for SemTab2023 Challenge",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Brice FOKO",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "bayes": "^1.0.0",
+    "cheerio": "^1.0.0-rc.12",
+    "fix-utf8": "^1.1.2",
+    "general-search-engine": "^1.4.1",
+    "googlethis": "^1.7.1",
+    "gunzip-file": "^0.1.1",
+    "natural": "^6.3.0",
+    "path": "^0.12.7",
+    "string-comparison": "^1.1.0",
+    "sync-fetch": "^0.4.2",
+    "unirest": "^0.6.0",
+    "wink-naive-bayes-text-classifier": "^2.2.1"
+  }
+}
